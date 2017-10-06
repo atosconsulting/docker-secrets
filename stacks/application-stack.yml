@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  boot:
+    image: atos/secrets:1.0.0-SNAPSHOT
+    ports:
+      - "9080:8080"
+    secrets:
+      - secret
+    
+secrets:
+  secret:
+    external: true

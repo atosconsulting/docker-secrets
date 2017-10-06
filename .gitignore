@@ -1,0 +1,6 @@
+.vagrant
+target
+.idea
+.mvn
+mvnw*
+*.iml
